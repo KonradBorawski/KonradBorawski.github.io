@@ -1,70 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Stronka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Landing Page - QuickCitation</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      
-      <nav class="navbar navbar-inverse navbar-static-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Pasek</a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">O stronie</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usługi<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Wygład</a></li>
-						<li><a href="#">Rozwój</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Kontakt</a></li>
-			</ul>
-		</div>
-	</div>
-</nav>
-         
-     
-          <button type="button"
-style="background-color:default;margin-left:auto;margin-right:auto;display:block;margin-top:10%;margin-bottom:0%"
-onclick="location.href='http://www.sw.org.pl/images/osoby/kuna.jpg';" value="Kuna">
-Maciej Kuna</button> 
-      
-       <button type="button"
-style="background-color:default;margin-left:auto;margin-right:auto;display:block;margin-top:10%;margin-bottom:0%"
-onclick="location.href='https://pbs.twimg.com/profile_images/684466012431998976/29sG2PB3.png';" value="Miądowicz">
-Miądowicz</button> 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-      
-      
-      
-      
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-   
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">QuickCitation</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Usługi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="intro-header">
+        <div class="container">
+            <div class="intro-message">
+                <h1>Landing Page</h1>
+                <h3>QuickCitation </h3>
+                <hr class="intro-divider">
+                <ul class="list-inline intro-social-buttons">
+                    <li class="list-inline-item">
+                            <a href="#" class="btn btn-secondary btn-lg"><span class="network-name">Stwórz konto</span></a>
+                        </li>
+                    <li class="list-inline-item">
+                            <a href="#" class="btn btn-secondary btn-lg"> <span class="network-name">Strona główna</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-secondary btn-lg"> <span class="network-name">Facebook</span></a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Cytaty, autorzy i książki</h2>
+                    <p class="lead">Wszechstronna baza cytatów, autorów i książek wraz z łatwym wyszukiwaniem ułatwi Ci życie i dostarczy rozrywki.</p>
+                </div>
+                <div class="col-lg-5 offset-lg-2">
+                    <img class="img-fluid" src="img/cytat.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 push-lg-7">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Społeczność i forum</h2>
+                    <p class="lead">Po stworzeniu konta możesz łatwo dostosować swój profil i dołączyć do dyskusji na najprzeróżniejsze tematy.</p>
+                </div>
+                <div class="col-lg-5 pull-lg-5">
+                    <img class="img-fluid" src="img/spolecznosc.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-b -->
+
+    <section class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Nieustanne ulepszanie</h2>
+                    <p class="lead">Nasz serwis jest nieustannie ulepszany poprzez poszerzanie bazy wiedzy oraz funkcjonalności, co prowadzi do wzrostu zadowolenia użytkowników.</p>
+                </div>
+                <div class="col-lg-5 offset-lg-2">
+                    <img class="img-fluid" src="img/rozwoj.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-a -->
+
+    <aside class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Dołącz do QuickCitation:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                       
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-secondary btn-lg"></i> <span class="network-name">Stwórz konto</span></a>
+                        </li>
+                    <li class="list-inline-item">
+                            <a href="#" class="btn btn-secondary btn-lg"></i> <span class="network-name">Strona główna</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </aside>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">Do góry</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                    <a href="#about">O nas</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                    <a href="#services">Usługi</a>
+                </li>
+                <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                    <a href="#contact">Kontakt</a>
+                </li>
+            </ul>
+            <p class="copyright text-muted small"> &copy; QuickCitation 2017. Prawa zastrzeżone</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
